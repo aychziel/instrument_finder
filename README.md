@@ -1,7 +1,8 @@
-# Goal & metrics.
+# Instrument Classifier
+### Goal & metrics ###
 The purpose of this project was to create an instrument classifier model that can accurately predict any given audio file and return the correct instrument. For the scope of this project I chose five unique instruments which are common in music production which include kick, snare, 808, open hat, and closed hat.  Coming from an audio and music background, I was curious in exploring the many factors that could distinguish an instrument. My metrics for this project was the accuracy score of which ever models I choose which in this case it was the MLP, Random forest and for the purposes of testing, the Convolutional Neural Network. For context, Convolutional Neural Networks is a deep learning model commonly used for image classification tasks.
 
-# Dataset
+# Data
 
  ### Background on data: The following data includes 2065 audio samples ( Kicks, Snares, 808's, Open hats, and Closed hats) from my own music production library which is made from several sources which include but are not limited to music production/sample sharing websites such as Landr, Splice, Reddit etc. The audio library can be accessed [Here](https://drive.google.com/drive/folders/1Dl2wvDMLQip063K0ncE7Anv7zzn25a0L?usp=sharing). Some of the sounds also came from the [drum classifier github project](https://github.com/aabalke33/drum-audio-classifier/tree/main). These audio samples are typically a few seconds (0-4 seconds) in WAV File formats. I am looking to explore how to convert these samples into their own features which include arrays of time, pitch, and amplitude to train the mode to accuratley classify the instruments based on any given audio sample in this library or outside of this library. Before starting to work with data, I decided to review the unique audio files to ensure data integrity and assumption made as far as the beginning stage. This will be explored further in the cleaning section.
 ---
