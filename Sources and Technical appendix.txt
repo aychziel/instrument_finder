@@ -1,0 +1,22 @@
+Technical appendix and sources
+
+MLP (Multilayer Perceptron) is a artificial neural network that has foundational architecture in deep learning and is used for various machine learning tasks, including classification(Perplexity AI, 2024).
+
+CNN (Convolutional Neural Network) is a deep learning model designed for processing data with a grid-like structure, such as images (Perplexity AI, 2024)
+
+Sources:
+www.perplexity.ai , 2024, Sited in EDA
+
+https://github.com/aabalke33/drum-audio-classifier/tree/main, 2023: Gave me a good starting point for framework and helped when creating the loading application that can input file path for model prediction.
+
+https://towardsdatascience.com/cnns-for-audio-classification-6244954665ab, 2023: Gave me more insight in CNN audio modeling. Sited in EDA
+
+https://www.vocabulary.com/dictionary/pitch, 2024. Sited in EDA
+
+Teachmeaudio.com, 2024, Sited in EDA
+
+https://www.geeksforgeeks.org/python-keras-keras-utils-to_categorical/
+
+https://www.tensorflow.org/api_docs/python/tf/keras/utils/to_categorical/
+
+https://machinelearningmastery.com/multi-class-classification-tutorial-keras-deep-learning-library/

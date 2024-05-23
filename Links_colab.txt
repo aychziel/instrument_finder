@@ -1,0 +1,4 @@
+Links to code for instructor use:
+
+Part 1: https://colab.research.google.com/drive/1RyiybEqaeZS6X6jtgXwVGYEDk92gT9Z8?usp=sharing\
+Part 2:https://colab.research.google.com/drive/16iIhLoPcRgl61kFeUMNXYO4K_BXfK6ZG?usp=sharing}
