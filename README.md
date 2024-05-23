@@ -47,12 +47,13 @@ As for The CNN model, I had a test set loss of approx 0.0061 and a test set accu
 For my Random Forest, I had very similar results as well with an accuracy of 1.0. The model was able to get 94 true positives for kicks, 104 true positives for 808s, 58 true positives for snares, 96 true positives for open hat and 50 true positives for closed hat. While this is a decent result, I did not look into the other measures such as recall or other scores since I received a similar result as the result of my models.
 
 
-If youre intrested in viewing even more...
+# If youre intrested in viewing even more...
 
 Interactive Instrument classifier based on my model web app (in progress): https://instrumentclassifier.streamlit.app/
 
 
-Sources:
+# Sources:
+
 www.perplexity.ai , 2024, Sited in EDA
 
 https://github.com/aabalke33/drum-audio-classifier/tree/main, 2023: Gave me a good starting point for framework and helped when creating the loading application that can input file path for model prediction.
