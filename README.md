@@ -1,5 +1,5 @@
 # Instrument Classifier
-### Goal & metrics ###
+# Goal & metrics 
 The purpose of this project was to create an instrument classifier model that can accurately predict any given audio file and return the correct instrument. For the scope of this project I chose five unique instruments which are common in music production which include kick, snare, 808, open hat, and closed hat.  Coming from an audio and music background, I was curious in exploring the many factors that could distinguish an instrument. My metrics for this project was the accuracy score of which ever models I choose which in this case it was the MLP, Random forest and for the purposes of testing, the Convolutional Neural Network. For context, Convolutional Neural Networks is a deep learning model commonly used for image classification tasks.
 
 # Data
