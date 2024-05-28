@@ -23,19 +23,30 @@ The purpose of this project was to create an instrument classifier model that ca
 |**Instrument_3**|*int*| My data | A binary indicator (0 or 1), representing whether the sample is an Open hat or not. |
 |**Instrument_4**|*int*| My data | A binary indicator (0 or 1), representing whether the sample is a Closed hat or not. |
 
-### Important vocabulary dictionary ###
 
-Pitch: Human perception of frequency that orders the frequency sound wave on a scale.
-Frequency: Measurable rate of vibration.
-Amplitude: Magnitude of a waveform. 
-Time: Measurable timeframe of audio sample.
-Sample: the audio file sample.
-MLP: Multilayer perceptron is a artificial neural network that consists of many layers of neurons that can be used to learn complex patterns in data. 
-808: a percussive sound known for its low-frequency bass and distinct booming sound (named based from the classic Roland TR-808 drum machine)
-Kick: a bass drum that is part of a drum kit and that is typically played by stepping on a pedal attached to a mallet.
-Snare: Percussion instrument that produces a staccato sound when hit.
-Open Hat: Percussive instrument that consists of the top and bottom cymbals being separated.
-Closed Hat: Percussive instrument that consists of the top and bottom cymbals being pressed tightly together.
+### Important Vocabulary Dictionary
+
+**Pitch:** Human perception of frequency that orders the frequency sound wave on a scale.
+
+**Frequency:** Measurable rate of vibration.
+
+**Amplitude:** Magnitude of a waveform.
+
+**Time:** Measurable timeframe of an audio sample.
+
+**Sample:** The audio file sample.
+
+**MLP:** Multilayer perceptron is an artificial neural network that consists of many layers of neurons that can be used to learn complex patterns in data.
+
+**808:** A percussive sound known for its low-frequency bass and distinct booming sound (named based on the classic Roland TR-808 drum machine).
+
+**Kick:** A bass drum that is part of a drum kit and that is typically played by stepping on a pedal attached to a mallet.
+
+**Snare:** A percussion instrument that produces a staccato sound when hit.
+
+**Open Hat:** A percussive instrument that consists of the top and bottom cymbals being separated.
+
+**Closed Hat:** A percussive instrument that consists of the top and bottom cymbals being pressed tightly together.
 
 For sources and more, review technical terms appendix.
 
