@@ -1,6 +1,6 @@
 # Instrument Classifier
 # Goal & metrics 
-The purpose of this project was to create an instrument classifier model that can accurately predict any given audio file and return the correct instrument. For the scope of this project I chose five unique instruments which are common in music production which include kick, snare, 808, open hat, and closed hat.  Coming from an audio and music background, I was curious in exploring the many factors that could distinguish an instrument. My metrics for this project was the accuracy score of which ever models I choose which in this case it was the MLP, Random forest and for the purposes of testing, the Convolutional Neural Network. For context, Convolutional Neural Networks is a deep learning model commonly used for image classification tasks.
+The purpose of this project was to create an instrument classifier model that can accurately predict any given audio file and return the correct instrument. For the scope of this project I chose five unique instruments which are common in music production which include kick, snare, 808, open hat, and closed hat.  Coming from an audio and music background, I was curious in exploring the many factors that could distinguish an instrument. My metrics for this project was the accuracy score of which ever models I choose which in this case it was the MLP, Random forest and for the purposes of testing, the Convolutional Neural Network. For context, Convolutional Neural Networks is a deep learning model commonly used for image classification.
 
 # Data
 
@@ -23,6 +23,21 @@ The purpose of this project was to create an instrument classifier model that ca
 |**Instrument_3**|*int*| My data | A binary indicator (0 or 1), representing whether the sample is an Open hat or not. |
 |**Instrument_4**|*int*| My data | A binary indicator (0 or 1), representing whether the sample is a Closed hat or not. |
 
+### Important vocabulary dictionary ###
+
+Pitch: Human perception of frequency that orders the frequency sound wave on a scale.
+Frequency: Measurable rate of vibration.
+Amplitude: Magnitude of a waveform. 
+Time: Measurable timeframe of audio sample.
+Sample: the audio file sample.
+MLP: Multilayer perceptron is a artificial neural network that consists of many layers of neurons that can be used to learn complex patterns in data. 
+808: a percussive sound known for its low-frequency bass and distinct booming sound (named based from the classic Roland TR-808 drum machine)
+Kick: a bass drum that is part of a drum kit and that is typically played by stepping on a pedal attached to a mallet.
+Snare: Percussion instrument that produces a staccato sound when hit.
+Open Hat: Percussive instrument that consists of the top and bottom cymbals being separated.
+Closed Hat: Percussive instrument that consists of the top and bottom cymbals being pressed tightly together.
+
+For sources and more, review technical terms appendix.
 
 ---
 
