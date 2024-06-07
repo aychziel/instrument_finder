@@ -69,9 +69,9 @@ For the CNN, I had a test set loss of approximately 0.0061 and a test set accura
 For my Random Forest, I had very similar results as well with an accuracy of 1.0. The model was able to get 94 true positives for kicks, 104 true positives for 808s, 58 true positives for snares, 96 true positives for open hat and 50 true positives for closed hat. While this is a decent result, I did not look into the other measures such as recall or other scores since I received a similar result as the result of my models.
 
 
-# If you are interested in viewing even more about how this ...
+# If you are interested in viewing even more ...
 
-Interactive Instrument classifier based on my model web app (IN PROGRESS): https://instrumentclassifier.streamlit.app/
+Interactive Instrument classifier based on my model web app (CURRENTLY IN PROGRESS): https://instrumentclassifier.streamlit.app/
 
 
 # Sources:
