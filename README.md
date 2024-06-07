@@ -37,8 +37,6 @@ Background on data: The following data includes 2065 audio samples ( Kicks, Snar
 
 **Sample:** The audio file sample.
 
-**MLP:** A Multilayer perceptron is an artificial neural network consisting of many layers of neurons that can be used to learn complex patterns in data.
-
 **808:** A percussive sound is known for its low-frequency bass and distinct booming sound (named based on the classic Roland TR-808 drum machine).
 
 **Kick:** A bass drum part of a drum kit is typically played by stepping on a pedal attached to a mallet.
@@ -48,6 +46,10 @@ Background on data: The following data includes 2065 audio samples ( Kicks, Snar
 **Open Hat:** A percussive instrument that consists of the top and bottom cymbals being separated.
 
 **Closed Hat:** A percussive instrument that consists of the top and bottom cymbals being pressed tightly together.
+
+Models:
+
+**MLP:** A Multilayer perceptron is an artificial neural network consisting of many layers of neurons that can be used to learn complex patterns in data.
 
 For more sources, review the technical terms in the appendix.
 
