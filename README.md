@@ -58,7 +58,7 @@ For more sources, review the technical terms in the appendix.
 # Executive Summary:
 
 ### Findings.
-From my findings, all three models obtained the same accuracy score of 1. Because of this, I decided to pick the model most suitable for my current audio data and for how I preprocess and feature-engineered my audio data through one hot encoding of each of my instruments with Keras's one hot encoder. In this case, the MLP model was the best choice for predicting my audio data and how my data is currently set up.
+From my findings, all three models obtained the same accuracy score of 1.0. Because of this, I decided to pick the model most suitable for my current audio data and for how I preprocess and feature-engineered my audio data through one hot encoding of each of my instruments with Keras's one hot encoder. In this case, the MLP model was the best choice for predicting my audio data and how my data is currently set up.
 
 In the future, I will continue working with CNN because, based on my EDA/image representation of my samples and how CNN can process audio data, I believe CNN has the most potential for future growth in the project.
 
