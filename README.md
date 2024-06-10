@@ -1,6 +1,6 @@
 # Instrument Classifier
 # Goal & metrics 
-This project aimed to create an instrument classifier model to accurately predict any given audio file and return the correct instrument. For this project's scope, I chose five unique instruments that are standard in music production: kick, snare, 808, open hat, and closed hat. Coming from an audio and music background, I was curious to explore the many features that could distinguish an instrument. My metrics for this project were the accuracy score of the MLP, Random forest, and Convolutional Neural Network.
+The goal of this project is to create an instrument classifier model that can accurately predict any given audio file and return the correct instrument. For this project's scope, I chose five unique instrument samples that are standard in music production: kick, snare, 808, open hat, and closed hat. Coming from an audio and music background, I was curious to explore the many features that could distinguish an instrument. My metrics for this project were the accuracy score of the MLP, Random forest, and Convolutional Neural Network.
 
 # Data
 
