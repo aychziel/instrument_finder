@@ -27,13 +27,13 @@ Background on data: The following data includes 2065 audio samples ( Kicks, Snar
 
 ### Important Vocabulary Dictionary
 
-**Pitch:** Human perception of frequency that orders the frequency sound wave on a scale.
+**Pitch:** Human perception of frequency that orders the frequency sound wave on a scale (Example: Music notation, C, D, E etc).
 
-**Frequency:** Measurable rate of vibration.
+**Frequency:** Measurable rate of vibration (Measured through Hz or hertz).
 
 **Amplitude:** Magnitude of a waveform.
 
-**Time:** Measurable timeframe of an audio sample.
+**Time:** Measurable timeframe of an audio sample. For the purpose of this project, seconds are more commonly used.
 
 **Sample:** The audio file sample.
 
