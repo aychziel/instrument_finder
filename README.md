@@ -24,8 +24,8 @@ Background on data: The following data includes 2065 audio samples ( Kicks, Snar
 |**Instrument_3**|*int*| My data | A binary indicator (0 or 1), representing whether the sample is an Open hat or not. |
 |**Instrument_4**|*int*| My data | A binary indicator (0 or 1), representing whether the sample is a Closed hat or not. |
 
-
 ### Important Vocabulary Dictionary
+**dB/Decibels:** Mesurable units of levels in sound pressure.
 
 **Pitch:** Human perception of frequency that orders the frequency sound wave on a scale (Example: Music notation, C, D, E etc).
 
