@@ -1,9 +1,10 @@
 ### Goal & metrics ###
-The goal of this project was to create an instrument classifier model that can accurately predict any given audio file and return the correct instrument. For this project's scope, I chose five unique instrument samples that are standard in music production: kick, snare, 808, open hat, and closed hat. Coming from an audio and music background, I was curious to explore the many features that could distinguish an instrument. My metrics for this project were the accuracy score of the MLP, Random forest, and Convolutional Neural Network.
+
+The main objective of the instrument finder is to create a model to classify musical instrument samples from audio files. I selected five common instrument samples and evaluated the model's performance using MLP, Random Forest, and Convolutional Neural Network scores.
 
 ### Data ###
 
-Background on data: The following data includes 2065 audio samples ( Kicks, Snares, 808's, Open hats, and Closed hats) from my music production library. This library was collected from several sources, including but not limited to music production/sample-sharing websites such as Landr, Splice, Reddit, etc. The audio library can be accessed [Here](https://drive.google.com/drive/folders/1Dl2wvDMLQip063K0ncE7Anv7zzn25a0L?usp=sharing). Some of the sounds also came from the [Drum classifier github project](https://github.com/aabalke33/drum-audio-classifier/tree/main). These audio samples are typically a few seconds (0-4 seconds) in WAV File formats. I am exploring how to convert these samples into their features, including arrays of time, pitch, and amplitude, to train the mode to accurately classify the instruments based on any given audio sample in or outside of this library. Before working with data, I reviewed the unique audio files to ensure data integrity and assumptions made in the beginning stage. This will be explored further in the cleaning section.
+Background on data: The following data includes 2065 audio samples (Kicks, Snares, 808's, Open hats, and Closed hats) from my music production library. This library was collected from several sources, including but not limited to music production/sample-sharing websites such as Landr, Splice, Reddit, etc. The audio library can be accessed [Here](https://drive.google.com/drive/folders/1Dl2wvDMLQip063K0ncE7Anv7zzn25a0L?usp=sharing). Some of the sounds also came from the [Drum classifier github project](https://github.com/aabalke33/drum-audio-classifier/tree/main). These audio samples are typically a few seconds (0-4 seconds) in WAV File formats.
 
 ---
 ### Data Dictionary ###
@@ -22,35 +23,6 @@ Background on data: The following data includes 2065 audio samples ( Kicks, Snar
 |**Instrument_2**|*int*| My data | A binary indicator (0 or 1),representing whether the sample is an 808 drum or not. |
 |**Instrument_3**|*int*| My data | A binary indicator (0 or 1), representing whether the sample is an Open hat or not. |
 |**Instrument_4**|*int*| My data | A binary indicator (0 or 1), representing whether the sample is a Closed hat or not. |
-
-### Important Vocabulary Dictionary
-**dB/Decibels:** Mesurable units of levels in sound pressure.
-
-**Pitch:** Human perception of frequency that orders the frequency sound wave on a scale (Example: Music notation, C, D, E etc).
-
-**Frequency:** Measurable rate of vibration (Measured through Hz or hertz).
-
-**Amplitude:** Magnitude of a waveform.
-
-**Time:** Measurable timeframe of an audio sample. For the purpose of this project, seconds are more commonly used.
-
-**Sample:** The audio file sample.
-
-**808:** A percussive sound is known for its low-frequency bass and distinct booming sound (named based on the classic Roland TR-808 drum machine).
-
-**Kick:** A bass drum part of a drum kit is typically played by stepping on a pedal attached to a mallet.
-
-**Snare:** A percussion instrument that produces a staccato sound when hit.
-
-**Open Hat:** A percussive instrument that consists of the top and bottom cymbals being separated.
-
-**Closed Hat:** A percussive instrument that consists of the top and bottom cymbals being pressed tightly together.
-
-Models:
-
-**MLP:** A Multilayer perceptron is an artificial neural network consisting of many layers of neurons that can be used to learn complex patterns in data.
-
-For more sources, review the technical terms in the appendix.
 
 ---
 
@@ -86,3 +58,5 @@ https://towardsdatascience.com/cnns-for-audio-classification-6244954665ab, 2023:
 https://www.vocabulary.com/dictionary/pitch, 2024. Sited in EDA
 
 Teachmeaudio.com, 2024, Sited in EDA
+
+I extracted the time, pitch, and amplitude of the audio file to train the mode to accurately classify the instruments based on any given audio sample. Before working with data, I reviewed the unique audio files to ensure data integrity and assumptions made in the beginning stage. This will be explored further in the cleaning section.
